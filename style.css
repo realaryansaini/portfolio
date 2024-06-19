@@ -5,6 +5,10 @@ body{
     overflow-x: hidden;
 }
 
+:root{
+    --pd:30px;
+}
+
 main{
     width: min(900px , 100vw);
     margin-inline: auto;
@@ -24,7 +28,7 @@ main{
     display: flex;
     gap: 30px;
     width: fit-content;
-    padding: 40px;
+    padding: var(--pd);
 }
 
 .img_container{
@@ -106,7 +110,7 @@ main{
 
 /* project */
 .projects{
-    padding: 40px;
+    padding: var(--pd);
     background-color: #eb4b0f30;
 
 }
