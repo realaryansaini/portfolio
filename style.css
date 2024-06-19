@@ -19,6 +19,7 @@ main{
     min-height: 100vh;
    
 }
+
 .profile{
     display: flex;
     gap: 30px;
@@ -198,6 +199,11 @@ main{
         flex-direction: column;
         
         /* background-color: red; */
+    }
+
+    .profile_section{
+        justify-content: start;
+        align-items: start;
     }
 
 }
